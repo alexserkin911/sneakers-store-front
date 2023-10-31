@@ -53,3 +53,50 @@
 	line-height: 17px;
 	color: #000000;
 }
+@media (max-width: 415px) {
+	.card {
+		position: relative;
+		display: flex;
+		align-items: center;
+		max-width: 150px;
+		height: 160px;
+		padding: 10px 12px;
+	}
+	.favorite {
+		position: absolute;
+		left: 15px;
+	}
+	.cardImg {
+		width: 80px;
+		height: 60px;
+	}
+	.cardTitle {
+		margin-top: 10px;
+		font-weight: 400;
+		font-size: 10px;
+	}
+	.cardFooter {
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+		margin-top: 10px;
+	}
+	.cardFooterLeft {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.cardFooterLeftTitle {
+		font-weight: 400;
+		font-size: 8px;
+		color: #bdbdbd;
+		text-transform: uppercase;
+	}
+	.cardFooterLeftPrice {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 10px;
+		line-height: 17px;
+		color: #000000;
+	}
+}

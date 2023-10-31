@@ -9,7 +9,7 @@ export default function Home() {
 	return (
 		<>
 			<ContentTitle />
-			<div style={{ display: 'flex', gap: 35, flexWrap: 'wrap' }}>
+			<div className='card__container'>
 				{(isLoading
 					? [...Array(8)]
 					: items.filter((el) =>

@@ -105,3 +105,62 @@ body {
 	gap: 35px;
 	flex-wrap: wrap;
 }
+
+.card__container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 35px;
+}
+
+@media (max-width: 1075px) {
+	.wrapper {
+		max-width: 1000px;
+	}
+	.card__container {
+		gap: 22px;
+	}
+	.card {
+		width: 210px;
+		height: 250px;
+		padding: 15px 25px;
+	}
+}
+
+@media (max-width: 415px) {
+	.wrapper {
+		max-width: 365px;
+		margin: 10px auto;
+	}
+	.header {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100px;
+		padding: 0 10px;
+		gap: 15px;
+	}
+
+	.headerLeft {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+
+	.headerRight {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+	}
+
+	.content {
+		margin: 0;
+		padding: 10px 20px;
+	}
+	.card__container {
+		display: flex;
+		justify-content: center;
+		gap: 20px;
+	}
+}
