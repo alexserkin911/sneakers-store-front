@@ -24,6 +24,7 @@ body {
 
 .headerLeft {
 	display: flex;
+	justify-content: center;
 	align-items: center;
 	gap: 16px;
 }
@@ -45,6 +46,7 @@ body {
 			display: flex;
 			justify-content: center;
 			align-items: center;
+
 			svg {
 				cursor: pointer;
 			}
@@ -117,7 +119,7 @@ body {
 		max-width: 1000px;
 	}
 	.card__container {
-		gap: 22px;
+		// gap: 22px;
 	}
 	.card {
 		width: 210px;
@@ -138,20 +140,35 @@ body {
 		align-items: center;
 		height: 100px;
 		padding: 0 10px;
-		gap: 15px;
+		gap: 0px;
 	}
 
 	.headerLeft {
 		display: flex;
 		align-items: center;
-		gap: 10px;
+		justify-content: center;
+		margin-bottom: 15px;
+		gap: 0px;
+		width: 240px;
+		border-radius: 5px;
+		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	}
+	.headerInfo {
+		margin-left: 10px;
 	}
 
 	.headerRight {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		gap: 20px;
+		gap: 0px;
+		li {
+			gap: 0px;
+			margin: 0 5px;
+			span {
+				margin-left: 5px;
+			}
+		}
 	}
 
 	.content {
@@ -161,6 +178,6 @@ body {
 	.card__container {
 		display: flex;
 		justify-content: center;
-		gap: 20px;
+		gap: 0px;
 	}
 }
